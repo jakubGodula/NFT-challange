@@ -1,0 +1,9 @@
+[package]
+name = "rabbit"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+rabbit = "0xaa3e79b37f336fa23ce354ddaa82391a7903690e78e46f61a197537be0b318b3"

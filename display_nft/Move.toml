@@ -1,0 +1,10 @@
+[package]
+name = "display_nft"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+rabbit = { local = "../dependencies/rabbit" }
+
+[addresses]
+display_nft = "0x0"
