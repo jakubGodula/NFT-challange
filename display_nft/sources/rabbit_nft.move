@@ -24,7 +24,7 @@ module display_nft::rabbit_nft {
 
         let values = vector[
             b"Clove_NFT".to_string(),
-            b"{image_url}".to_string(),
+            b"https://github.com/jakubGodula/NFT-challange/blob/main/imgs/clove.png?raw=true".to_string(),
             b"Magick Clove".to_string(),
             b"https://github.com/jakubGodula/NFT-challenge".to_string(),
             b"Jakub Godula".to_string(), ];
